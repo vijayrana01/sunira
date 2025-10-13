@@ -6,9 +6,8 @@ import Section from "./Section";
 import Hero2 from "./Hero2";
 import SectionSale from "./SectionSale";
 import VideoSection from "./VideoSection";
-import ImageTimer from "./imageTimer";
+import ImageTimer from "./ImageTimer.jsx";
 import SlideImages from "./SlideImages";
-
 
 const Home = () => {
   return (
@@ -21,7 +20,6 @@ const Home = () => {
       <SectionSale />
       <VideoSection />
       <ImageTimer />
-    
     </div>
   );
 };
