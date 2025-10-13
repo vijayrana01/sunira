@@ -6,7 +6,7 @@ import Section from "./Section";
 import Hero2 from "./Hero2";
 import SectionSale from "./SectionSale";
 import VideoSection from "./VideoSection";
-import ImageTimer from "./ImageTimer.jsx";
+import ImageTimer from "./ImageTimer";
 import SlideImages from "./SlideImages";
 
 const Home = () => {
