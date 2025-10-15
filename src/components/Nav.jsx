@@ -13,7 +13,7 @@ import image01 from "../assets/image01.png";
 import Category from "./Category";
 import Collection from "./Collection";
 import DropDown from "./DropDown";
-import ISCategory from "./isCategory";
+import ISCategory from "./Iscategory";
 import IScollection from "./IScollection";
 
 
