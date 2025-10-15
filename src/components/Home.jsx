@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <SlideImages />
+      
       <Hero />
       <Section />
       <Hero2 />
