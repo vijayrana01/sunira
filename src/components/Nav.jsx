@@ -119,7 +119,7 @@ const Nav = () => {
       {/* ---------- Mobile Sidebar Menu (Always Mounted) ---------- */}
       <div
         ref={sidebarRef}
-        className="lg:hidden xl:hidden fixed top-0 right-0 w-full h-full bg-white flex flex-col justify-center items-center z-50 translate-x-full opacity-0"
+        className="lg:hidden xl:hidden fixed top-0 right-0 w-full h-full bg-white flex flex-col justify-center gap-5 items-center z-50 translate-x-full opacity-0"
       >
         <button
           onClick={() => setIsopen(false)}
