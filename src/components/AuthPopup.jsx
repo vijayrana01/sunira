@@ -42,8 +42,8 @@ const AuthPopup = ({ open, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 flex justify-center items-center z-50 bg-black/30">
-      <div className="w-[90%] max-w-[500px] bg-white shadow-2xl  p-8 relative">
+    <div className="fixed inset-0 flex justify-center items-center z-50 bg-black/30 p-4 ">
+      <div className="w-full md:w-[90%] md:max-w-[500px] bg-white shadow-2xl  p-8 relative rounded-md">
         <HiX
           className="absolute top-4 right-4 text-2xl cursor-pointer text-gray-600 hover:text-black"
           onClick={onClose}
